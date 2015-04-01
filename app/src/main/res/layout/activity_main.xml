@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.drawlet.MainActivity"  
-    android:orientation="horizontal" 
+    android:orientation="horizontal"
+    android:screenOrientation="landscape"
     android:background="#FFCCCCCC">
     
 
