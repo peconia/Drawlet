@@ -200,7 +200,7 @@ public class MainActivity extends Activity implements OnClickListener {
 //				@Override
 				public void onClick(DialogInterface dialog, int which) {
 					drawView.setDrawingCacheEnabled(true);
-					String imageSaved = MediaStore.Images.Media.insertImage(getContentResolver(), drawView.getDrawingCache(), 
+					String imageSaved = MediaStore.Images.Media.insertImage(getContentResolver(), drawView.getDrawingCache(),
 							UUID.randomUUID().toString()+".png", "drawing");
 					
 					if (imageSaved != null) {
